@@ -1,0 +1,11 @@
+hparas:
+  valid_step: 5000
+  max_step: 1000001
+  tf_start: 1.0
+  tf_end: 1.0
+  tf_step: 500000
+  optimizer: 'Adadelta'
+  lr: 0.00005
+  eps: 0.00000001                         # 1e-8
+  lr_scheduler: 'spec-aug-basic'
+  curriculum: 0
